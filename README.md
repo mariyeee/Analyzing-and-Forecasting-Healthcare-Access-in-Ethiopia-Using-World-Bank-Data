@@ -76,8 +76,7 @@ Project Structure
 │   ├── raw/                     # Raw World Bank datasets
 │   ├── processed/               # Cleaned and transformed data
 ├── notebooks/
-│   ├── eda.ipynb                # Exploratory Data Analysis
-│   ├── modeling.ipynb           # ARIMA forecasting
+│   ├── Health Care Access.ipynb # Exploratory Data Analysis, ARIMA forecasting, and data preprocessing
 ├── src/
 │   ├── data_cleaning.py         # Data cleaning and preprocessing scripts
 │   ├── analysis.py              # EDA and comparative analysis
@@ -88,7 +87,6 @@ Project Structure
 ├── README.md                    # Project documentation
 ├── requirements.txt             # Python dependencies
 ├── LICENSE                      # MIT License
-
 Installation
 Clone the repository:
 bash
@@ -116,7 +114,7 @@ Open http://127.0.0.1:8050 in your browser to view the dashboard.
 Dependencies
 Python 3.7+
 
-Key libraries: pandas, numpy, statsmodels, numpy, plotly, dash, matplotlib, seaborn, scikit-learn
+Key libraries: pandas, numpy, statsmodels, numpy, plotly, dash, matplotlib, seaborn, sk-learn
 
 Full list in requirements.txt
 
