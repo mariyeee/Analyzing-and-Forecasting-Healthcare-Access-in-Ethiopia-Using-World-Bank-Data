@@ -86,7 +86,7 @@ Project Structure
 │   ├── visualizations/          
 ├── README.md                    
 ├── requirements.txt            
-├── LICENSE                     
+                    
 Installation
 Clone the repository:
 bash
