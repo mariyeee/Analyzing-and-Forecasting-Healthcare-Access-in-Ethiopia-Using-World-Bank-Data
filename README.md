@@ -73,20 +73,20 @@ Use forecasts to guide resource allocation in HSTP II.
 Project Structure
 
 ├── data/
-│   ├── raw/                     # Raw World Bank datasets
-│   ├── processed/               # Cleaned and transformed data
+│   ├── raw/                     
+│   ├── processed/               
 ├── notebooks/
-│   ├── Health Care Access.ipynb # Exploratory Data Analysis, ARIMA forecasting, and data preprocessing
+│   ├── Health Care Access.ipynb 
 ├── src/
-│   ├── data_cleaning.py         # Data cleaning and preprocessing scripts
-│   ├── analysis.py              # EDA and comparative analysis
-│   ├── modeling.py              # Time series forecasting
-│   ├── dashboard.py             # Plotly Dash dashboard
+│   ├── data_cleaning.py        
+│   ├── analysis.py             
+│   ├── modeling.py            
+│   ├── dashboard.py           
 ├── static/
-│   ├── visualizations/          # Static plots and figures
-├── README.md                    # Project documentation
-├── requirements.txt             # Python dependencies
-├── LICENSE                      # MIT License
+│   ├── visualizations/          
+├── README.md                    
+├── requirements.txt            
+├── LICENSE                     
 Installation
 Clone the repository:
 bash
